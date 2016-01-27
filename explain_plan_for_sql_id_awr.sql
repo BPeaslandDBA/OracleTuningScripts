@@ -1,0 +1,3 @@
+set lin 120
+
+SELECT * FROM table(DBMS_XPLAN.DISPLAY_AWR('&1'));
